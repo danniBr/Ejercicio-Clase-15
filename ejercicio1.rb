@@ -29,7 +29,7 @@ recibe_arreglo(array)
 def cambio_color(color)
   file = File.open('index.html', 'a')
 
-  file.puts 'style="background-color:' + color + '"'
+  file.puts '<p style="background-color:' + color + '"> holaa </p>'
 
   file.close
 end
